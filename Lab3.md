@@ -64,7 +64,7 @@ The Bug: <br>
 4 ways to use the find command: <br>
 
 find -name (Source -- https://www.redhat.com/sysadmin/linux-find-command) <br> 
-	Ex1
+	Ex1 <br>
 	Input: <br>
  	```
   	find -name ar750.txt
@@ -73,7 +73,7 @@ find -name (Source -- https://www.redhat.com/sysadmin/linux-find-command) <br>
   	```
    	./biomed/ar750.txt
     	```
-     	Ex2
+     	Ex2 <br>
 	Input: <br>
  	```
   	find -name 1471-2091-2-12.txt
@@ -83,6 +83,7 @@ find -name (Source -- https://www.redhat.com/sysadmin/linux-find-command) <br>
    	./biomed/1471-2091-2-12.txt
     	```
 find -type: (Source -- https://www.redhat.com/sysadmin/linux-find-command) <br>
+Ex1 <br>
 	Input: <br>
  	```
   	find -type d
@@ -93,6 +94,7 @@ find -type: (Source -- https://www.redhat.com/sysadmin/linux-find-command) <br>
 	./911report
 	./biomed
     	```
+Ex2 <br>
      	Input: <br>
  	```
   	find -type f
@@ -116,6 +118,7 @@ find -type: (Source -- https://www.redhat.com/sysadmin/linux-find-command) <br>
  	... all the other files in the technical directory.
     	```
 find -maxdepth: (Source -- https://adamtheautomator.com/bash-find/) <br>
+Ex1 <br>
 	Input: <br>
  	```
   	find -maxdepth 1 -type d
@@ -126,6 +129,7 @@ find -maxdepth: (Source -- https://adamtheautomator.com/bash-find/) <br>
 	./911report
 	./biomed
     	```
+Ex2 <br>
      	Input: <br>
  	```
   	find -maxdepth 1 -type f
@@ -135,6 +139,7 @@ find -maxdepth: (Source -- https://adamtheautomator.com/bash-find/) <br>
    	nothing outputted
    	```
 find -iname: (Source -- https://adamtheautomator.com/bash-find/) <br>
+Ex1 <br>
 	Input: <br>
  	```
   	find -iname chapter*
@@ -158,6 +163,7 @@ find -iname: (Source -- https://adamtheautomator.com/bash-find/) <br>
 	./911report/chapter-13.2.txt
 	./911report/chapter-7.txt
     	```
+Ex2 <br>
      	Input: <br>
  	```
   	find -iname AR* 
