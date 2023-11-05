@@ -72,7 +72,7 @@ find -name (Source -- https://www.redhat.com/sysadmin/linux-find-command) <br>
  	Output: <br>
   	```
    	./biomed/ar750.txt
-    	```
+    	``` <br>
      	Ex2 <br>
 	Input: <br>
  	```
@@ -116,7 +116,7 @@ Ex2 <br>
 	./911report/preface.txt
 	./911report/chapter-2.txt
  	... all the other files in the technical directory.
-    	```
+    	``` 
 find -maxdepth: (Source -- https://adamtheautomator.com/bash-find/) <br>
 Ex1 <br>
 	Input: <br>
