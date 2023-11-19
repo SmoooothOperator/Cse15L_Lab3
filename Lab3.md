@@ -62,6 +62,8 @@ The Bug: <br>
 **Part 2 -- Researching Commands** <br>
 
 4 ways to use the find command: <br>
+
+Find command 1: <br>
 ```
 find -name
 ```
@@ -87,6 +89,8 @@ Output: <br>
 ```
 ./biomed/1471-2091-2-12.txt
 ```
+
+Find command 2: <br>
 ```
 find -type <br>
 ```
@@ -129,6 +133,7 @@ Output: <br>
 ... all the other files in the technical directory.
 ```
 
+Find command 3: <br>
 ```
 find -maxdepth
 ```
@@ -158,10 +163,13 @@ Output: <br>
 nothing outputted
 ```
 
-[Source](https://adamtheautomator.com/bash-find/) <br>
+
+Find command 4: <br>
 ```
 find -iname
 ```
+[Source](https://adamtheautomator.com/bash-find/) <br>
+
 Ex1 <br>
 This example looks for the name chapter in a file, with no case sensitivity, this is useful when one has files with captilized letter and non-capitilized letter, letting one find them in one search <br>
 Input: <br>
