@@ -62,10 +62,13 @@ The Bug: <br>
 **Part 2 -- Researching Commands** <br>
 
 4 ways to use the find command: <br>
-
-find -name (Source -- https://www.redhat.com/sysadmin/linux-find-command) <br> 
+[Source](https://www.redhat.com/sysadmin/linux-find-command) <br>
+```
+find -name
+```
 
 Ex1 <br>
+This example is finding the files based on its name, it is useful when looking for a specific file <br>
 Input: <br>
 ```
 find -name ar750.txt
@@ -73,8 +76,9 @@ find -name ar750.txt
 Output: <br>
 ```
 ./biomed/ar750.txt
-``` 
+```
 Ex2 <br>
+This example is finding a file based on the name 1471-2091-2-12.txt, it is useful when looking for a specific file <br>
 Input: <br>
 ```
 find -name 1471-2091-2-12.txt
@@ -83,10 +87,13 @@ Output: <br>
 ```
 ./biomed/1471-2091-2-12.txt
 ```
-
-find -type: (Source -- https://www.redhat.com/sysadmin/linux-find-command) <br>
+[Source](https://www.redhat.com/sysadmin/linux-find-command) <br>
+```
+find -type <br>
+```
 
 Ex1 <br>
+This example finds the directories only, it is useful when one is only looking for directories <br>
 Input: <br>
 ```
 find -type d
@@ -98,6 +105,7 @@ Output: <br>
 ./biomed
 ```
 Ex2 <br>
+This example finds the files only, it is a useful tool to exclude all the directories in the find result <br>
 Input: <br>
 ```
 find -type f
@@ -121,9 +129,13 @@ Output: <br>
 ... all the other files in the technical directory.
 ```
 
-find -maxdepth: (Source -- https://adamtheautomator.com/bash-find/) <br>
+[Source](https://adamtheautomator.com/bash-find/) <br>
+```
+find -maxdepth
+```
 
 Ex1 <br>
+This example finds only directories but limits the recursive search to only 1 directory down, it is useful when looking for something but only want to go into a certain depth in a file structure <br>
 Input: <br>
 ```
 find -maxdepth 1 -type d
@@ -135,6 +147,7 @@ Output: <br>
 ./biomed
 ```
 Ex2 <br>
+This example finds only files but limits the recursive search to only 1 directory down, it is useful when looking for files but only want to go into a certain depth in a file structure <br>
 Input: <br>
 ```
 find -maxdepth 1 -type f
@@ -144,9 +157,12 @@ Output: <br>
 nothing outputted
 ```
 
-find -iname: (Source -- https://adamtheautomator.com/bash-find/) <br>
-
+[Source](https://adamtheautomator.com/bash-find/) <br>
+```
+find -iname
+```
 Ex1 <br>
+This example looks for the name chapter in a file, with no case sensitivity, this is useful when one has files with captilized letter and non-capitilized letter, letting one find them in one search <br>
 Input: <br>
 ```
 find -iname chapter*
@@ -172,6 +188,7 @@ Output: <br>
 ```
 
 Ex2 <br>
+This command finds all the files with the letter AR in them, whether they are capitalized or not, this is useful when one has files with varying case sensitivity as well as when one is just trying to find files with similar name <br>
 Input: <br>
 ```
 find -iname AR* 
