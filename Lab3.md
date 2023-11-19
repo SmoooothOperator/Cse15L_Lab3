@@ -62,10 +62,10 @@ The Bug: <br>
 **Part 2 -- Researching Commands** <br>
 
 4 ways to use the find command: <br>
-[Source](https://www.redhat.com/sysadmin/linux-find-command) <br>
 ```
 find -name
 ```
+[Source](https://www.redhat.com/sysadmin/linux-find-command) <br>
 
 Ex1 <br>
 This example is finding the files based on its name, it is useful when looking for a specific file <br>
@@ -87,10 +87,10 @@ Output: <br>
 ```
 ./biomed/1471-2091-2-12.txt
 ```
-[Source](https://www.redhat.com/sysadmin/linux-find-command) <br>
 ```
 find -type <br>
 ```
+[Source](https://www.redhat.com/sysadmin/linux-find-command) <br>
 
 Ex1 <br>
 This example finds the directories only, it is useful when one is only looking for directories <br>
@@ -129,10 +129,11 @@ Output: <br>
 ... all the other files in the technical directory.
 ```
 
-[Source](https://adamtheautomator.com/bash-find/) <br>
 ```
 find -maxdepth
 ```
+[Source](https://adamtheautomator.com/bash-find/) <br>
+
 
 Ex1 <br>
 This example finds only directories but limits the recursive search to only 1 directory down, it is useful when looking for something but only want to go into a certain depth in a file structure <br>
